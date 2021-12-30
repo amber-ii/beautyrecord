@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn-tailwindcss.vercel.app/"></script> -->
+    <title>LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <h1>ADD SOMETHING</h1>
+    </header>
+    <div class="totalGrade">
+    </div>
+    <form>
+        <input type="date" id="todo-input1" class="todo-input1">
+        <input type="text" id="todo-input2" class="todo-input2">
+        <button type="submit" class="todo-button">
+          <i class="bi bi-plus-square-fill"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="gotit">Got It!</option>
+                <option value="fight">Fighting!</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
